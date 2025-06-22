@@ -1,7 +1,3 @@
-Here is a **detailed, production-quality `README.md`** for your `ml_utils` repository. It includes clear sections for motivation, installation, usage, architecture, extensibility via plugins, and contribution guidelines.
-
----
-
 # 🧠 ml_utils: Modular Machine Learning Utilities for PyTorch
 
 `ml_utils` is a modular, extensible training framework built on PyTorch, designed to streamline model training across multiple domains. Currently focused on **vision tasks** using `torchvision`, this repository is being developed with a **plugin architecture** in mind to support future domains like `torchaudio`, `torchrec`, and `torchtext`.
