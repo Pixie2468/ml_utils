@@ -22,7 +22,7 @@
 
 ```
 ml_utils/
-├── ml\_utils/
+├── ml_utils/
 │   ├── engine.py         # Training loop and evaluation logic
 │   ├── model.py          # torchvision + custom model definitions
 │   ├── utils.py          # Utility functions (device, saving, plotting)
@@ -33,7 +33,7 @@ ml_utils/
 ├── requirements.txt
 ├── README.md
 └── examples/
-└── example\_usage.py
+    ├── example_usage.py
 ```
 
 ---
