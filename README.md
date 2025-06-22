@@ -2,7 +2,6 @@ Here is a **detailed, production-quality `README.md`** for your `ml_utils` repos
 
 ---
 
-```markdown
 # 🧠 ml_utils: Modular Machine Learning Utilities for PyTorch
 
 `ml_utils` is a modular, extensible training framework built on PyTorch, designed to streamline model training across multiple domains. Currently focused on **vision tasks** using `torchvision`, this repository is being developed with a **plugin architecture** in mind to support future domains like `torchaudio`, `torchrec`, and `torchtext`.
@@ -26,8 +25,7 @@ Here is a **detailed, production-quality `README.md`** for your `ml_utils` repos
 ## 📁 Directory Structure
 
 ```
-
-ml\_utils/
+ml_utils/
 ├── ml\_utils/
 │   ├── engine.py         # Training loop and evaluation logic
 │   ├── model.py          # torchvision + custom model definitions
@@ -40,8 +38,7 @@ ml\_utils/
 ├── README.md
 └── examples/
 └── example\_usage.py
-
-````
+```
 
 ---
 
@@ -53,7 +50,7 @@ Clone the repository and install dependencies:
 git clone https://github.com/Pixie2468/ml_utils.git
 cd ml_utils
 pip install -r requirements.txt
-````
+```
 
 ---
 
@@ -218,12 +215,6 @@ class AudioPlugin:
 
 ---
 
-## 🪪 License
-
-MIT License. See [LICENSE](./LICENSE) for details.
-
----
-
 ## 🔗 Related Projects
 
 * [torchvision](https://pytorch.org/vision/stable/index.html)
@@ -236,10 +227,3 @@ MIT License. See [LICENSE](./LICENSE) for details.
 ## 🙋‍♀️ Questions or Feedback?
 
 Open an [issue](https://github.com/Pixie2468/ml_utils/issues) or start a discussion. Let’s build a powerful, extensible ML training system together.
-
-```
-
----
-
-Would you like me to generate this file and save it as a new `README.md` that you can directly push to your repo?
-```
