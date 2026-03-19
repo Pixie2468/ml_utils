@@ -45,6 +45,7 @@ env/
 *.csv
 *.xlsx
 *.json
+*.sqlite
 datasets/
 raw_data/
 
