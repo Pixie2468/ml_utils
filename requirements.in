@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pydantic
+numpy
+kaggle
+pandas
+scikit-learn
+torch
+torchvision
